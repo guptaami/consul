@@ -1,0 +1,18 @@
+{
+  "advertise_addr": "192.168.0.51",
+  "bind_addr": "192.168.0.51",
+  "bootstrap": true,
+  "client_addr": "192.168.0.51",
+  "data_dir": "/mnt/sda7/ubuntu-softwares/consul/node1/9.0.0/data",
+  "datacenter": "baba-pvt",
+  "domain": "INFO",
+  "ports": {
+    "dns": 8401,
+    "http": 8501,
+    "server": 8402,
+    "serf_lan": 8403,
+    "serf_wan": 8404
+  },
+  "server": true,
+  "start_join": ["192.168.0.51"]
+}

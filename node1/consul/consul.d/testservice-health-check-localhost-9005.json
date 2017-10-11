@@ -1,0 +1,16 @@
+{
+	"service": {
+		"id": "TestService-BS",
+		"name": "TestService",
+		"tags": ["Test", "Service"],
+		"address": "192.168.0.52",
+		"port": 9005,
+		"enableTagOverride": true,
+		"checks": [
+			{
+				"script": "/mnt/sda7/ubuntu-softwares/consul/node2/9.0.0/scripts/testservice-localhost-9005.sh",
+				"interval": "15s"
+			}
+		]
+	}
+}

@@ -1,0 +1,2 @@
+#/bin/bash
+/mnt/sda7/ubuntu-softwares/consul/node2/9.0.0/lib/consul agent -enable-script-checks -ui -config-file=/mnt/sda7/ubuntu-softwares/consul/node2/9.0.0/config/consul.json -config-dir=/mnt/sda7/ubuntu-softwares/consul/node2/9.0.0/consul.d >> /mnt/sda7/ubuntu-softwares/consul/node2/9.0.0/logs/consul.log &
